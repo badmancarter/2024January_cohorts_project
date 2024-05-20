@@ -33,8 +33,7 @@ nexusArtifactUploader artifacts: [[artifactId: 'SampleWebApp', classifier: '', f
         
         stage('deploy to tomcat') {
           steps {
-            deploy adapters: [tomcat9(credentialsId: 'ID_tomcatServer', path: '', url: 'http://3.17.159.101:8080/')], contextPath: 'app', war: '**/*.war'
-             
+deploy adapters: [tomcat9(credentialsId: 'ID_tomcatserver', path: '', url: 'http://54.159.17.22:8080/')], contextPath: 'app', war: '**/*.war'             
             }
             
         }
