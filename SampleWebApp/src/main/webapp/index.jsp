@@ -2,7 +2,7 @@
   <head>
     <title> New java Musical project for the year 2024 </title>
   </head>
-  <body bgcolor="#00FF00">
+  <body bgcolor="#FFD700">
     <h1>Hello from Aderoju DevOps Expert Consults </h1>
     <!--Form declaration. Must have an action attribute -->
         <form action="C:/JonnyJava/FirstJava.html/profile.html" method="post">
